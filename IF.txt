@@ -1,0 +1,34 @@
+/* Online C# Compiler and Editor */
+using System.IO;
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string nome;
+        int idade;
+        
+        Console.Write("Digite seu nome: ");
+        nome = Console.ReadLine();
+        
+        Console.Write("Digite seu idade: ");
+        idade = Convert.ToInt32(Console.ReadLine());
+        
+        Console.Write("Seu nome e: " + nome);
+        
+        
+        Console.Write("Sua idade e: " + idade);
+        
+        if(idade >=18){
+           Console.WriteLine("Voce e maior de idade");
+        
+                
+        }else{
+           Console.WriteLine("Voce e menor de idade");
+        }
+             
+                
+       
+   }
+}
