@@ -1,0 +1,20 @@
+/* Online C# Compiler and Editor */
+using System.IO;
+using System;
+
+class Program
+{
+    static void Main()
+    {
+      //COMENTÁRIO DE  LINHAS
+      
+      /*COMENTÁRIO  DE MULTIPLAS LINHAS 
+      LINHA1
+      LINHA2
+      */
+      int idade = 40;
+      string nome = "esdon rodrigues",
+      double valor = 100000.50,
+      bool status = true;
+    }
+}
